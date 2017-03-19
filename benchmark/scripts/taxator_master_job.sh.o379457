@@ -1,0 +1,56 @@
+CFastaReader: Hyphens are invalid and will be ignored around line 1
+FASTA-Reader: Ignoring invalid residues at position(s): On line 1: 1-9, 11-14, 16-19, 21-24, 26-38, 42, 45-48, 50-55, 58-61, 64-65, 67, 72, 74, 76, 78-80, 84, 89-96, 99-109, 116, 119, 121, 123, 126-127, 130-136, 139-140, 142, 147, 149, 151, 153-155, 159, 164-171, 174-184, 191-192, 196
+FASTA-Reader: Ignoring invalid residues at position(s): On line 3: 1
+CFastaReader: Hyphens are invalid and will be ignored around line 4
+FASTA-Reader: Ignoring invalid residues at position(s): On line 4: 1-22, 24-57, 59-170, 172-198, 200-203, 205-273, 275-280, 282-291, 294-296, 298-299, 301-313, 315-330, 332-334, 336-394, 396-399, 401-421, 423-433, 435-462, 464-516, 518-728, 730-761, 764-842, 844-872, 874-878, 880-957, 959-1079, 1082-1083, 1085-1150, 1152-1173, 1176-1205, 1207-1271, 1273-1386
+CFastaReader: Hyphens are invalid and will be ignored around line 5
+FASTA-Reader: Ignoring invalid residues at position(s): On line 5: 1-9, 11-14, 16-19, 21-24, 26-38, 42, 45-48, 50-55, 58-61, 64-65, 67, 72, 74, 76, 78-80, 84, 89-96, 99-108, 115, 118, 120, 122, 125-126, 129-135, 138-139, 141, 146, 148, 150, 152-154, 158, 163-170, 173-182, 189-190, 194
+FASTA-Reader: Ignoring invalid residues at position(s): On line 7: 1
+CFastaReader: Hyphens are invalid and will be ignored around line 8
+FASTA-Reader: Ignoring invalid residues at position(s): On line 8: 1-23, 25-32, 34-47, 49-53, 55-63, 65-66, 68-81, 83-90, 92-97, 99-109, 112-133, 135-143, 145-146, 148, 150-155, 157-179, 181-187, 189-194, 197-255, 257-259, 261-276, 278-285, 287, 289-293, 297-323, 325-342
+CFastaReader: Hyphens are invalid and will be ignored around line 9
+FASTA-Reader: Ignoring invalid residues at position(s): On line 9: 1-9, 11-14, 16-19, 21-24, 26-38, 42, 45-48, 50-55, 58-61, 64-65, 67, 72, 74, 76, 78-80, 84, 89-96, 99-108, 115, 118, 120, 122, 125-126, 129-135, 138-139, 141, 146, 148, 150, 152-154, 158, 163-170, 173-182, 189-190, 194
+FASTA-Reader: Ignoring invalid residues at position(s): On line 11: 1
+CFastaReader: Hyphens are invalid and will be ignored around line 12
+FASTA-Reader: Ignoring invalid residues at position(s): On line 12: 1-64, 66-87, 89-105, 107-153, 156-158, 160-187, 189-196, 198-209, 211-218, 220-224, 227-229, 231-256, 259-315, 317-351, 353-357, 360-364, 366-389, 392-402, 404-423
+CFastaReader: Hyphens are invalid and will be ignored around line 13
+FASTA-Reader: Ignoring invalid residues at position(s): On line 13: 1-9, 11-14, 16-19, 21-24, 26-38, 42, 45-48, 50-55, 58-61, 64-65, 67, 72, 74, 76, 78-80, 84, 89-96, 99-108, 115, 118, 120, 122, 125-126, 129-135, 138-139, 141, 146, 148, 150, 152-154, 158, 163-170, 173-182, 189-190, 194
+FASTA-Reader: Ignoring invalid residues at position(s): On line 15: 1
+CFastaReader: Hyphens are invalid and will be ignored around line 16
+FASTA-Reader: Ignoring invalid residues at position(s): On line 16: 1-4, 6-13, 15-29, 31-37, 39, 41-56, 58-69, 71-116, 118, 121-124, 126-131, 133-144, 146, 148, 150-163, 165-189, 191-196, 198-245, 247-256, 258-264, 266-274, 276-279, 281-286
+CFastaReader: Hyphens are invalid and will be ignored around line 17
+FASTA-Reader: Ignoring invalid residues at position(s): On line 17: 1-9, 11-14, 16-19, 21-24, 26-38, 42, 45-48, 50-55, 58-61, 64-65, 67, 72, 74, 76, 78-80, 84, 89-96, 99-109, 116, 119, 121, 123, 126-127, 130-136, 139-140, 142, 147, 149, 151, 153-155, 159, 164-171, 174-184, 191-192, 196
+FASTA-Reader: Ignoring invalid residues at position(s): On line 19: 1
+CFastaReader: Hyphens are invalid and will be ignored around line 20
+FASTA-Reader: Ignoring invalid residues at position(s): On line 20: 1-63, 66-106, 108-118, 120-137, 139-158, 160-187, 190-193, 195-203, 205-209, 211-242, 244-248, 250-277, 279-313, 315-344, 346-347
+CFastaReader: Hyphens are invalid and will be ignored around line 21
+FASTA-Reader: Ignoring invalid residues at position(s): On line 21: 1-9, 11-14, 16-19, 21-24, 26-38, 42, 45-48, 50-55, 58-61, 64-65, 67, 72, 74, 76, 78-80, 84, 89-96, 99-109, 116, 119, 121, 123, 126-127, 130-136, 139-140, 142, 147, 149, 151, 153-155, 159, 164-171, 174-184, 191-192, 196
+FASTA-Reader: Ignoring invalid residues at position(s): On line 23: 1
+CFastaReader: Hyphens are invalid and will be ignored around line 24
+FASTA-Reader: Ignoring invalid residues at position(s): On line 24: 1-5, 7-80, 82-85, 88-103, 105-108, 110-163, 165-173, 175-176, 178-180, 182-188, 191-210, 212-225, 228-249, 251-280, 282-316
+Loading 'b9.pass.2d.fna' (total=1)
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+Loading '/mnt/HA/groups/rosenclassGrp/benchmark_project/data/nist-immsa/IMMSA/nonredundant-microbial_20140513/refdata1.fna' (total=1)
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+An unrecoverable error occurred: std::exception
+
+Here is some debugging information to locate the problem:
+/home/ahl54/opt/taxator-tk/src/fileparser.hh(52): Throw in function FileParser<FactoryType>::RecordType* FileParser<FactoryType>::next() [with FactoryType = AlignmentRecordFactory<AlignmentRecordTaxonomy>; FileParser<FactoryType>::RecordType = AlignmentRecordTaxonomy]
+Dynamic exception type: boost::exception_detail::clone_impl<Exception>
+std::exception::what: std::exception
+[exception_tag_file*] = /mnt/HA/groups/rosenclassGrp/benchmark_project/data/nist-immsa/IMMSA/nonredundant-microbial_20140513/b9.pass.2d.mapping.tax
+[exception_tag_line*] = 1
+[exception_tag_seqid*] = U62986
+[exception_tag_general*] = bad taxon mapping for alignment reference sequence
+
+analyzing sample composition by signal counting... done: 1 nested taxa with total support of 0 bp
+noise removal... done: 0 taxa were removed
+binning step...  done

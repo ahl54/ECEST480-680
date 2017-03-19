@@ -1,0 +1,11 @@
+An unrecoverable error occurred: could not find file
+
+Here is some debugging information to locate the problem:
+/home/ahl54/opt/taxator-tk/src/sequencestorage.hh(58): Throw in function RandomInmemorySeqStoreRO<StorageStringType, WorkingStringType, Format>::RandomInmemorySeqStoreRO(const string&) [with StorageStringType = seqan::String<seqan::SimpleType<unsigned char, seqan::Dna5_>, seqan::Alloc<> >; WorkingStringType = seqan::String<seqan::SimpleType<unsigned char, seqan::Dna5_>, seqan::Alloc<> >; Format = seqan::Tag<seqan::TagFasta_>; std::string = std::basic_string<char>]
+Dynamic exception type: boost::exception_detail::clone_impl<FileNotFound>
+std::exception::what: could not find file
+[exception_tag_file*] = copy.fna
+
+analyzing sample composition by signal counting... done: 1 nested taxa with total support of 0 bp
+noise removal... done: 0 taxa were removed
+binning step...  done

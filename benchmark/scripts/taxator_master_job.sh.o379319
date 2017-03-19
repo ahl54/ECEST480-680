@@ -1,0 +1,26 @@
+b9.pass.2d.blast
+b9.pass.2d.fna
+Loading 'b9.pass.2d.fna' (total=1)
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+Loading '/mnt/HA/groups/rosenclassGrp/benchmark_project/data/nist-immsa/IMMSA/nonredundant-microbial_20140513/refdata1.fna' (total=1)
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+An unrecoverable error occurred: std::exception
+
+Here is some debugging information to locate the problem:
+/home/ahl54/opt/taxator-tk/src/fileparser.hh(52): Throw in function FileParser<FactoryType>::RecordType* FileParser<FactoryType>::next() [with FactoryType = AlignmentRecordFactory<AlignmentRecordTaxonomy>; FileParser<FactoryType>::RecordType = AlignmentRecordTaxonomy]
+Dynamic exception type: boost::exception_detail::clone_impl<Exception>
+std::exception::what: std::exception
+[exception_tag_line*] = 1
+[exception_tag_general*] = bad number of fields in alignment line
+
+analyzing sample composition by signal counting... done: 1 nested taxa with total support of 0 bp
+noise removal... done: 0 taxa were removed
+binning step...  done
