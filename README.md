@@ -11,4 +11,4 @@ Anna Lu, Keyur Shah, Nicole Buleza
 
 #Ensemble Classifier: Relative abundance and Gram+ vs Gram- Analysis
 
-* [Load data script](https://github.com/ahl54/ECEST480-680/blob/master/classifier/load.m)
+* [Load data script](https://github.com/ahl54/ECEST480-680/blob/master/classifier/load_data.m)
