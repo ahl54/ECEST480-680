@@ -1,0 +1,8 @@
+# This is the bioboxes.org binning output format at
+# https://github.com/bioboxes/rfc/tree/master/data-format
+
+@Version:0.9.1
+@SampleID:1
+@_TaxatorTK_Version:1.3.3
+
+@@SequenceID	TaxID	_TaxatorTK_Support	_TaxatorTK_Length

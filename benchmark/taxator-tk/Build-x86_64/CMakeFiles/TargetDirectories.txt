@@ -1,0 +1,5 @@
+/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/alignments-filter.dir
+/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/binner.dir
+/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/taxator.dir
+/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/taxknife.dir
+/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/unittest_ncbitaxonomy.dir

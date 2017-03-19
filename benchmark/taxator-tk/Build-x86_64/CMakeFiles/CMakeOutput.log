@@ -1,0 +1,271 @@
+The system is: Linux - 2.6.32-358.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /cm/shared/apps/gcc/4.8.1/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /cm/shared/apps/gcc/4.8.1/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec238492582/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec238492582.dir/build.make CMakeFiles/cmTryCompileExec238492582.dir/build
+gmake[1]: Entering directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec238492582.dir/testCCompiler.c.o
+/cm/shared/apps/gcc/4.8.1/bin/gcc    -o CMakeFiles/cmTryCompileExec238492582.dir/testCCompiler.c.o   -c /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec238492582
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec238492582.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/gcc       CMakeFiles/cmTryCompileExec238492582.dir/testCCompiler.c.o  -o cmTryCompileExec238492582 -rdynamic 
+gmake[1]: Leaving directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1772593214/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1772593214.dir/build.make CMakeFiles/cmTryCompileExec1772593214.dir/build
+gmake[1]: Entering directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1772593214.dir/CMakeCCompilerABI.c.o
+/cm/shared/apps/gcc/4.8.1/bin/gcc    -o CMakeFiles/cmTryCompileExec1772593214.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1772593214
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1772593214.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/gcc     -v CMakeFiles/cmTryCompileExec1772593214.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1772593214 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/cm/shared/apps/gcc/4.8.1/bin/gcc
+COLLECT_LTO_WRAPPER=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../gcc-4.8.1/configure --prefix=/cm/shared/apps/gcc/4.8.1 --enable-languages=c,c++,fortran --with-gmp-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-gmp-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-mpc-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src --with-mpc-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src/.libs --with-mpfr-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src --with-mpfr-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src/.libs
+Thread model: posix
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1772593214' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1772593214 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. CMakeFiles/cmTryCompileExec1772593214.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1772593214/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1772593214.dir/build.make CMakeFiles/cmTryCompileExec1772593214.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1772593214.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cm/shared/apps/gcc/4.8.1/bin/gcc    -o CMakeFiles/cmTryCompileExec1772593214.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1772593214]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1772593214.dir/link.txt --verbose=1]
+  ignore line: [/cm/shared/apps/gcc/4.8.1/bin/gcc     -v CMakeFiles/cmTryCompileExec1772593214.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1772593214 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cm/shared/apps/gcc/4.8.1/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/cm/shared/apps/gcc/4.8.1 --enable-languages=c,c++,fortran --with-gmp-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-gmp-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-mpc-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src --with-mpc-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src/.libs --with-mpfr-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src --with-mpfr-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src/.libs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1772593214' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1772593214 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. CMakeFiles/cmTryCompileExec1772593214.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1772593214] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1]
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec1772593214.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1] ==> [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64] ==> [/cm/shared/apps/gcc/4.8.1/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..] ==> [/cm/shared/apps/gcc/4.8.1/lib]
+  implicit libs: [c]
+  implicit dirs: [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1;/cm/shared/apps/gcc/4.8.1/lib64;/lib64;/usr/lib64;/cm/shared/apps/gcc/4.8.1/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4146398746/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4146398746.dir/build.make CMakeFiles/cmTryCompileExec4146398746.dir/build
+gmake[1]: Entering directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4146398746.dir/testCXXCompiler.cxx.o
+/cm/shared/apps/gcc/4.8.1/bin/g++     -o CMakeFiles/cmTryCompileExec4146398746.dir/testCXXCompiler.cxx.o -c /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4146398746
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4146398746.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/g++        CMakeFiles/cmTryCompileExec4146398746.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4146398746 -rdynamic 
+gmake[1]: Leaving directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec885722372/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec885722372.dir/build.make CMakeFiles/cmTryCompileExec885722372.dir/build
+gmake[1]: Entering directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec885722372.dir/CMakeCXXCompilerABI.cpp.o
+/cm/shared/apps/gcc/4.8.1/bin/g++     -o CMakeFiles/cmTryCompileExec885722372.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec885722372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec885722372.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/g++      -v CMakeFiles/cmTryCompileExec885722372.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec885722372 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/cm/shared/apps/gcc/4.8.1/bin/g++
+COLLECT_LTO_WRAPPER=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../gcc-4.8.1/configure --prefix=/cm/shared/apps/gcc/4.8.1 --enable-languages=c,c++,fortran --with-gmp-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-gmp-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-mpc-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src --with-mpc-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src/.libs --with-mpfr-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src --with-mpfr-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src/.libs
+Thread model: posix
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec885722372' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec885722372 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. CMakeFiles/cmTryCompileExec885722372.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec885722372/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec885722372.dir/build.make CMakeFiles/cmTryCompileExec885722372.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec885722372.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cm/shared/apps/gcc/4.8.1/bin/g++     -o CMakeFiles/cmTryCompileExec885722372.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec885722372]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec885722372.dir/link.txt --verbose=1]
+  ignore line: [/cm/shared/apps/gcc/4.8.1/bin/g++      -v CMakeFiles/cmTryCompileExec885722372.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec885722372 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cm/shared/apps/gcc/4.8.1/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/cm/shared/apps/gcc/4.8.1 --enable-languages=c,c++,fortran --with-gmp-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-gmp-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-mpc-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src --with-mpc-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src/.libs --with-mpfr-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src --with-mpfr-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src/.libs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec885722372' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec885722372 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. CMakeFiles/cmTryCompileExec885722372.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec885722372] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1]
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec885722372.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1] ==> [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64] ==> [/cm/shared/apps/gcc/4.8.1/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..] ==> [/cm/shared/apps/gcc/4.8.1/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1;/cm/shared/apps/gcc/4.8.1/lib64;/lib64;/usr/lib64;/cm/shared/apps/gcc/4.8.1/lib]
+  implicit fwks: []
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3790351004/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3790351004.dir/build.make CMakeFiles/cmTryCompileExec3790351004.dir/build
+gmake[1]: Entering directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3790351004.dir/CheckIncludeFiles.c.o
+/cm/shared/apps/gcc/4.8.1/bin/gcc    -o CMakeFiles/cmTryCompileExec3790351004.dir/CheckIncludeFiles.c.o   -c /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3790351004
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3790351004.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/gcc       CMakeFiles/cmTryCompileExec3790351004.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3790351004 -rdynamic 
+gmake[1]: Leaving directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec238567896/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec238567896.dir/build.make CMakeFiles/cmTryCompileExec238567896.dir/build
+gmake[1]: Entering directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec238567896.dir/CheckFunctionExists.c.o
+/cm/shared/apps/gcc/4.8.1/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec238567896.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec238567896
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec238567896.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec238567896.dir/CheckFunctionExists.c.o  -o cmTryCompileExec238567896 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/home/ahl54/opt/taxator-tk/Build-x86_64/CMakeFiles/CMakeTmp'
+
+
