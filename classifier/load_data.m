@@ -10,7 +10,6 @@ TRUTHdir_g = dir(dirname);
 
 %parse each TRUTH file
 data_g = {};
-% note: only 16 truth entries in subspecies
 for ind = 1:length(TRUTHdir_g)
     data_g = [data_g tdfread(TRUTHdir_g(ind).name)]; % need to provide TRUTHdir(ind).folder path here too
 end
@@ -22,7 +21,6 @@ TRUTHdir_f = dir(dirname);
 
 % parse each TRUTH file
 data_f = {};
-% note: only 16 truth entries in subspecies
 for ind = 1:length(TRUTHdir_f)
     data_f = [data_f tdfread(TRUTHdir_f(ind).name)]; % need to provide TRUTHdir(ind).folder path here too
 end
@@ -34,7 +32,6 @@ TRUTHdir_s = dir(dirname);
 
 % parse each TRUTH file
 data_s = {};
-% note: only 16 truth entries in subspecies
 for ind = 1:length(TRUTHdir_s)
     data_s = [data_s tdfread(TRUTHdir_s(ind).name)]; % need to provide TRUTHdir(ind).folder path here too
 end
