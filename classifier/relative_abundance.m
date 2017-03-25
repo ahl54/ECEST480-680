@@ -1,7 +1,7 @@
 % user environment params
 output_datapath='C:\Users\Anna\Documents\MATLAB\ece_stat_genome\output';
 
-%% Truth relative abundances
+%% Load truth relative abundances
 truth = load_truth(output_datapath);
 
 fields = fieldnames(truth); % full, genus, species, subspecies
@@ -21,13 +21,13 @@ end
 % relative abundances associated with unique taxa
 truthra = ra_set(itx);
 
-%% calculate L1 dist between each tool and truth per taxa
+%% Load tool relative abundances (non-truth data)
 tool = load_tools(output_datapath);
 tool_set = [];
 toolra_set = [];
 fields = fieldnames(tool);
 
-% for each tool
+% just analyzing full directory here
 for j = 1:size(tool.full, 1)
     fname = tool.full(j).name;
     [ra taxa] = parse_ra(output_datapath, fname);
@@ -40,21 +40,44 @@ end
 [tx_tool, itx] = unique(categorical(tool_set));
 toolra = toolra_set(itx);
 
-%%
-% intersect taxa overlap between truth tx and non-truth tx_tool
-[match, imatch] = intersect(tx, tx_tool);
-%toolra = toolra_set(imatch)
-
-
 %% Calculate L1 distance
 
-%for each taxa
-dist = squareform(pdist([truthra toolra], 'Euclidean')); 
+dist = pdist2(truthra, toolra, 'Euclidean'); 
 
-%%
+%% Visualize
 colormap('hot')
 imagesc(dist)
 colorbar
-title('truth vs non-truth L1 distance heatmap')
+title('Full truth vs non-truth L1 distance heatmap')
 xlabel('tools')
 ylabel('truth taxa')
+
+%% Gram cluster (truth only)
+neg = [];
+pos = [];
+txnames = [];
+for i = 1:length(tx)
+    % string parsing first name only, no whitespace, alphanumeric only
+    txcell = strsplit(char(tx(i)));
+    txcell{1}(~ismember(txcell{1},['A':'Z' 'a':'z'])) = '';
+    taxname = txcell{1};
+    % gram lookup function
+    gram = gramlookup(taxname);
+    if gram == 0
+        neg = [neg; truthra(i)];
+    elseif gram == 1
+        pos = [pos; truthra(i)];
+    else
+        % exclude from analysis (some samples were not bacteria)
+    end
+end
+
+%% Visualize gram cluster
+hold on
+scatter(1:length(neg), neg, 'b')
+scatter(1:length(pos), pos, 'r')
+title('Relative abundances by gram strain')
+legend('gram-', 'gram+')
+ylabel('Relative abundance')
+xlabel('Tool id')
+hold off
