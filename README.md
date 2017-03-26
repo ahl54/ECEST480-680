@@ -20,3 +20,5 @@ Anna Lu, Keyur Shah, Nicole Buleza
 # Distance Matrix Results
 ![Relative Abundance heatmap](https://github.com/ahl54/ECEST480-680/blob/master/classifier/distmatrix.JPG)
 
+# Gram positive vs negative Results
+![Gram Cluster](https://github.com/ahl54/ECEST480-680/blob/master/classifier/gramcluster.JPG)
